@@ -1,0 +1,343 @@
+[22:01:21][E][max31865:101]: SPI bus read all 0 or all 1 (0x0000), check MAX31865 wiring & power.
+[22:01:21][E][max31865:101]: SPI bus read all 0 or all 1 (0x0000), check MAX31865 wiring & power.
+[22:01:21][D][combi_boiler:073]: New Shelly values: 0.02 0.01 0.01
+[22:01:21][D][text_sensor:064]: 'Boiler 2 Status': Sending state 'S1: 0.02 A, S2: 0.01 A, S3: 0.01 A'
+[22:01:21][E][max31865:101]: SPI bus read all 0 or all 1 (0x0000), check MAX31865 wiring & power.
+[22:01:21][E][max31865:101]: SPI bus read all 0 or all 1 (0x0000), check MAX31865 wiring & power.
+[22:01:21][D][combi_boiler:130]: Current Shelly reading: 0.02 0.01 0.01
+[22:01:21][D][combi_boiler:138]: @FP: -0.00 -0.00 0
+[22:01:21][D][combi_boiler:151]: FP: 0.00 0.00 0
+[22:01:22][E][max31865:101]: SPI bus read all 0 or all 1 (0x0000), check MAX31865 wiring & power.
+[22:01:22][E][max31865:101]: SPI bus read all 0 or all 1 (0x0000), check MAX31865 wiring & power.
+[22:01:23]ets Jul 29 2019 12:21:46
+[22:01:23]
+[22:01:23]rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+[22:01:23]configsip: 0, SPIWP:0xee
+[22:01:23]clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+[22:01:23]mode:DIO, clock div:2
+[22:01:23]load:0x3fff0030,len:1184
+[22:01:23]load:0x40078000,len:13132
+[22:01:23]load:0x40080400,len:3036
+[22:01:23]entry 0x400805e4
+[22:01:23]E (294) psram: PSRAM ID read error: 0xffffffff
+[22:01:23][I][logger:171]: Log initialized
+[22:01:23][C][safe_mode:079]: There have been 2 suspected unsuccessful boot attempts
+[22:01:23][D][esp32.preferences:114]: Saving 1 preferences to flash...
+[22:01:23][D][esp32.preferences:143]: Saving 1 preferences to flash: 0 cached, 1 written, 0 failed
+[22:01:23][I][app:029]: Running through setup()...
+[22:01:23][D][spi:035]: Setting up SPI bus...
+[22:01:23][D][spi:035]: Setting up SPI bus...
+[22:01:23][C][switch.gpio:011]: Setting up GPIO Switch 'Backlight'...
+[22:01:23][D][switch:012]: 'Backlight' Turning ON.
+[22:01:23][D][switch:055]: 'Backlight': Sending state ON
+[22:01:23][D][switch:012]: 'Backlight' Turning ON.
+[22:01:23][D][ili9xxx:034]: Setting up ILI9xxx
+[22:01:23][D][spi_device:362]: mode 0, data_rate 40000kHz
+[22:01:24][D][ili9xxx:030]: Wrote MADCTL 0x08
+[22:01:24][D][number:012]: 'Boiler 1 forcepoint': Sending state -1.000000
+[22:01:24][D][number:012]: 'Boiler 2 forcepoint': Sending state -1.000000
+[22:01:24][D][number:012]: 'Boiler 1 max temperature': Sending state 75.000000
+[22:01:24][D][number:012]: 'Boiler 2 max temperature': Sending state 40.000000
+[22:01:24][D][template.switch:046]:   Restored state ON
+[22:01:24][D][switch:012]: 'Boiler1 Enable' Turning ON.
+[22:01:24][D][main:094]: turn_on_action
+[22:01:24][D][switch:055]: 'Boiler1 Enable': Sending state ON
+[22:01:24][D][template.switch:046]:   Restored state ON
+[22:01:24][D][switch:012]: 'Boiler2 Enable' Turning ON.
+[22:01:24][D][switch:055]: 'Boiler2 Enable': Sending state ON
+[22:01:24][C][max31865:068]: Setting up MAX31865Sensor 'Temperature1'...
+[22:01:24][D][spi_device:362]: mode 1, data_rate 4000kHz
+[22:01:24][C][max31865:068]: Setting up MAX31865Sensor 'Temperature2'...
+[22:01:24][D][spi_device:362]: mode 1, data_rate 4000kHz
+[22:01:24][C][wifi:048]: Setting up WiFi...
+[22:01:24][C][wifi:061]: Starting WiFi...
+[22:01:24][C][wifi:062]:   Local MAC: 30:C6:F7:1D:CA:48
+[22:01:24][D][wifi:482]: Starting scan...
+[22:01:24][D][esp32.preferences:114]: Saving 2 preferences to flash...
+[22:01:24][D][esp32.preferences:143]: Saving 2 preferences to flash: 2 cached, 0 written, 0 failed
+[22:01:24][D][sensor:094]: 'Uptime Sensor': Sending state 0.80900 s with 0 decimals of accuracy
+[22:01:24][W][component:157]: Component wifi set Warning flag: scanning for networks
+[22:01:24][E][max31865:101]: SPI bus read all 0 or all 1 (0x0000), check MAX31865 wiring & power.
+[22:01:24][D][sensor:094]: 'Temperature1': Sending state nan °C with 0 decimals of accuracy
+[22:01:24][E][component:164]: Component max31865.sensor set Error flag: unspecified
+[22:01:24][E][max31865:101]: SPI bus read all 0 or all 1 (0x0000), check MAX31865 wiring & power.
+[22:01:24][D][sensor:094]: 'Temperature2': Sending state nan °C with 0 decimals of accuracy
+[22:01:24][E][component:164]: Component max31865.sensor set Error flag: unspecified
+[22:01:24][E][max31865:101]: SPI bus read all 0 or all 1 (0x0000), check MAX31865 wiring & power.
+[22:01:25][E][max31865:101]: SPI bus read all 0 or all 1 (0x0000), check MAX31865 wiring & power.
+[22:01:25][E][max31865:101]: SPI bus read all 0 or all 1 (0x0000), check MAX31865 wiring & power.
+[22:01:26][E][max31865:101]: SPI bus read all 0 or all 1 (0x0000), check MAX31865 wiring & power.
+[22:01:26][E][max31865:101]: SPI bus read all 0 or all 1 (0x0000), check MAX31865 wiring & power.
+[22:01:27][E][max31865:101]: SPI bus read all 0 or all 1 (0x0000), check MAX31865 wiring & power.
+[22:01:27][E][max31865:101]: SPI bus read all 0 or all 1 (0x0000), check MAX31865 wiring & power.
+[22:01:28][E][max31865:101]: SPI bus read all 0 or all 1 (0x0000), check MAX31865 wiring & power.
+[22:01:28][E][max31865:101]: SPI bus read all 0 or all 1 (0x0000), check MAX31865 wiring & power.
+[22:01:28][D][sensor:094]: 'Temperature1': Sending state nan °C with 0 decimals of accuracy
+[22:01:29][E][max31865:101]: SPI bus read all 0 or all 1 (0x0000), check MAX31865 wiring & power.
+[22:01:29][D][sensor:094]: 'Temperature2': Sending state nan °C with 0 decimals of accuracy
+[22:01:29][E][max31865:101]: SPI bus read all 0 or all 1 (0x0000), check MAX31865 wiring & power.
+[22:01:30][E][max31865:101]: SPI bus read all 0 or all 1 (0x0000), check MAX31865 wiring & power.
+[22:01:30][D][wifi:497]: Found networks:
+[22:01:30][I][wifi:541]: - 'AnnieEnJohn24' (FA:92:BF:6D:6E:55) [redacted]▂▄▆█
+[22:01:30][D][wifi:542]:     Channel: 1
+[22:01:30][D][wifi:543]:     RSSI: -57 dB
+[22:01:30][I][wifi:541]: - 'AnnieEnJohn24' (78:8A:20:DD:D6:DB) [redacted]▂▄▆█
+[22:01:30][D][wifi:542]:     Channel: 1
+[22:01:30][D][wifi:543]:     RSSI: -90 dB
+[22:01:30][D][wifi:546]: - ''[redacted] (F4:92:BF:6D:6E:55) [redacted]▂▄▆█
+[22:01:30][D][wifi:546]: - 'AnnieEnJohn'[redacted] (88:0F:A2:31:5A:F6) [redacted]▂▄▆█
+[22:01:30][D][wifi:546]: - 'TMNL-578F71'[redacted] (BC:CF:4F:B1:AF:46) [redacted]▂▄▆█
+[22:01:30][D][wifi:546]: - 'TMNL-578F71'[redacted] (5C:64:8E:57:8F:71) [redacted]▂▄▆█
+[22:01:30][D][wifi:546]: - 'KPNE9BE46'[redacted] (6C:99:61:E9:BE:46) [redacted]▂▄▆█
+[22:01:30][I][wifi:313]: WiFi Connecting to 'AnnieEnJohn24'...
+[22:01:30][E][max31865:101]: SPI bus read all 0 or all 1 (0x0000), check MAX31865 wiring & power.
+[22:01:31][I][wifi:617]: WiFi Connected!
+[22:01:31][C][wifi:428]:   Local MAC: 30:C6:F7:1D:CA:48
+[22:01:31][C][wifi:433]:   SSID: 'AnnieEnJohn24'[redacted]
+[22:01:31][C][wifi:436]:   IP Address: 192.168.10.20
+[22:01:31][C][wifi:440]:   BSSID: FA:92:BF:6D:6E:55[redacted]
+[22:01:31][C][wifi:441]:   Hostname: 'combi_boiler'
+[22:01:31][C][wifi:443]:   Signal strength: -59 dB ▂▄▆█
+[22:01:31][C][wifi:447]:   Channel: 1
+[22:01:31][C][wifi:448]:   Subnet: 255.255.255.0
+[22:01:31][C][wifi:449]:   Gateway: 192.168.10.254
+[22:01:31][C][wifi:450]:   DNS1: 192.168.10.254
+[22:01:31][C][wifi:451]:   DNS2: 0.0.0.0
+[22:01:31][D][wifi:626]: Disabling AP...
+[22:01:31][C][web_server:100]: Setting up web server...
+[22:01:31][C][api:026]: Setting up Home Assistant API server...
+[22:01:31][D][combi_boiler:100]: 111111@FP: -0.00
+[22:01:31][I][app:062]: setup() finished successfully!
+[22:01:31][D][sensor:094]: 'Loop Time': Sending state 0.00000 ms with 0 decimals of accuracy
+[22:01:31][W][component:170]: Component wifi cleared Warning flag
+[22:01:31][W][component:157]: Component api set Warning flag: unspecified
+[22:01:31][I][combi_boiler:025]: UDP server started on port 4711
+[22:01:31][D][combi_boiler:130]: Current Shelly reading: 0.00 0.00 0.00
+[22:01:31][D][binary_sensor:036]: 'Boiler 1 Full': Sending state ON
+[22:01:31][D][binary_sensor:036]: 'Boiler 2 Full': Sending state ON
+[22:01:31][D][sensor:094]: 'Boiler 1 Power': Sending state 100.00000 % with 1 decimals of accuracy
+[22:01:31][D][sensor:094]: 'Boiler 2 Power': Sending state 100.00000 % with 1 decimals of accuracy
+[22:01:31][I][app:100]: ESPHome version 2024.12.4 compiled on Jan 24 2025, 21:58:39
+[22:01:31][C][wifi:600]: WiFi:
+[22:01:31][C][wifi:428]:   Local MAC: 30:C6:F7:1D:CA:48
+[22:01:31][C][wifi:433]:   SSID: 'AnnieEnJohn24'[redacted]
+[22:01:31][C][wifi:436]:   IP Address: 192.168.10.20
+[22:01:31][C][wifi:440]:   BSSID: FA:92:BF:6D:6E:55[redacted]
+[22:01:31][C][wifi:441]:   Hostname: 'combi_boiler'
+[22:01:31][C][wifi:443]:   Signal strength: -58 dB ▂▄▆█
+[22:01:31][C][wifi:447]:   Channel: 1
+[22:01:31][C][wifi:448]:   Subnet: 255.255.255.0
+[22:01:31][C][wifi:449]:   Gateway: 192.168.10.254
+[22:01:31][C][wifi:450]:   DNS1: 192.168.10.254
+[22:01:31][C][wifi:451]:   DNS2: 0.0.0.0
+[22:01:31][E][max31865:101]: SPI bus read all 0 or all 1 (0x0000), check MAX31865 wiring & power.
+[22:01:31][D][combi_boiler:073]: New Shelly values: 0.02 0.01 0.01
+[22:01:31][D][text_sensor:064]: 'Boiler 2 Status': Sending state 'S1: 0.02 A, S2: 0.01 A, S3: 0.01 A'
+[22:01:31][C][logger:185]: Logger:
+[22:01:31][C][logger:186]:   Level: DEBUG
+[22:01:31][C][logger:188]:   Log Baud Rate: 115200
+[22:01:31][C][logger:189]:   Hardware UART: UART0
+[22:01:31][C][spi:064]: SPI bus:
+[22:01:31][C][spi:065]:   CLK Pin: GPIO13
+[22:01:31][C][spi:066]:   SDI Pin: GPIO37
+[22:01:31][C][spi:067]:   SDO Pin: GPIO27
+[22:01:31][C][spi:072]:   Using HW SPI: SPI
+[22:01:31][C][spi:064]: SPI bus:
+[22:01:31][C][spi:065]:   CLK Pin: GPIO18
+[22:01:31][C][spi:066]:   SDI Pin: 
+[22:01:31][C][spi:067]:   SDO Pin: GPIO19
+[22:01:31][C][spi:072]:   Using HW SPI: HSPI
+[22:01:31][C][switch.gpio:068]: GPIO Switch 'Backlight'
+[22:01:31][C][switch.gpio:091]:   Restore Mode: always ON
+[22:01:31][C][switch.gpio:031]:   Pin: GPIO4
+[22:01:31][C][ili9xxx:094]: ili9xxx
+[22:01:31][C][ili9xxx:094]:   Rotations: 90 °
+[22:01:31][C][ili9xxx:094]:   Dimensions: 240px x 135px
+[22:01:31][C][ili9xxx:095]:   Width Offset: 52
+[22:01:31][C][ili9xxx:096]:   Height Offset: 40
+[22:01:31][C][ili9xxx:102]:   Color mode: 16bit
+[22:01:31][C][ili9xxx:111]:   Data rate: 40MHz
+[22:01:31][C][ili9xxx:113]:   Reset Pin: GPIO23
+[22:01:31][C][ili9xxx:114]:   CS Pin: GPIO5
+[22:01:31][C][ili9xxx:115]:   DC Pin: GPIO16
+[22:01:31][C][ili9xxx:117]:   Color order: BGR
+[22:01:31][C][ili9xxx:118]:   Swap_xy: NO
+[22:01:31][C][ili9xxx:119]:   Mirror_x: NO
+[22:01:31][C][ili9xxx:120]:   Mirror_y: NO
+[22:01:31][C][ili9xxx:121]:   Invert colors: YES
+[22:01:31][C][ili9xxx:126]:   Update Interval: 1.0s
+[22:01:31][C][template.number:050]: Template Number 'Boiler 1 forcepoint'
+[22:01:31][C][template.number:051]:   Optimistic: YES
+[22:01:31][C][template.number:052]:   Update Interval: 60.0s
+[22:01:31][C][template.number:050]: Template Number 'Boiler 2 forcepoint'
+[22:01:31][C][template.number:051]:   Optimistic: YES
+[22:01:31][C][template.number:052]:   Update Interval: 60.0s
+[22:01:31][C][template.number:050]: Template Number 'Boiler 1 max temperature'
+[22:01:31][C][template.number:051]:   Optimistic: YES
+[22:01:31][C][template.number:052]:   Update Interval: 60.0s
+[22:01:31][C][template.number:050]: Template Number 'Boiler 2 max temperature'
+[22:01:31][C][template.number:051]:   Optimistic: YES
+[22:01:31][C][template.number:052]:   Update Interval: 60.0s
+[22:01:31][C][uptime.sensor:033]: Uptime Sensor 'Uptime Sensor'
+[22:01:31][C][uptime.sensor:033]:   Device Class: 'duration'
+[22:01:31][C][uptime.sensor:033]:   State Class: 'total_increasing'
+[22:01:31][C][uptime.sensor:033]:   Unit of Measurement: 's'
+[22:01:31][C][uptime.sensor:033]:   Accuracy Decimals: 0
+[22:01:31][C][uptime.sensor:033]:   Icon: 'mdi:timer-outline'
+[22:01:31][C][uptime.sensor:034]:   Type: Seconds
+[22:01:31][C][template.switch:068]: Template Switch 'Boiler1 Enable'
+[22:01:31][C][template.switch:091]:   Restore Mode: restore defaults to ON
+[22:01:31][C][template.switch:057]:   Optimistic: NO
+[22:01:31][C][template.switch:068]: Template Switch 'Boiler2 Enable'
+[22:01:31][C][template.switch:091]:   Restore Mode: restore defaults to ON
+[22:01:31][C][template.switch:057]:   Optimistic: NO
+[22:01:31][C][homeassistant.time:010]: Home Assistant Time:
+[22:01:31][C][homeassistant.time:011]:   Timezone: 'CET-1CEST,M3.5.0,M10.5.0/3'
+[22:01:31][C][restart:068]: Restart Switch 'Restart'
+[22:01:31][C][restart:070]:   Icon: 'mdi:restart'
+[22:01:31][C][restart:091]:   Restore Mode: always OFF
+[22:01:31][C][safe_mode.switch:068]: Safe Mode Switch 'Restart (Safe Mode)'
+[22:01:31][C][safe_mode.switch:070]:   Icon: 'mdi:restart-alert'
+[22:01:31][C][safe_mode.switch:091]:   Restore Mode: always OFF
+[22:01:31][C][max31865:083]: MAX31865 'Temperature1'
+[22:01:31][C][max31865:083]:   Device Class: 'temperature'
+[22:01:31][C][max31865:083]:   State Class: 'measurement'
+[22:01:31][C][max31865:083]:   Unit of Measurement: '°C'
+[22:01:31][C][max31865:083]:   Accuracy Decimals: 0
+[22:01:31][C][max31865:083]:   Icon: 'mdi:water-percent'
+[22:01:31][C][max31865:084]:   CS Pin: GPIO33
+[22:01:31][C][max31865:085]:   Update Interval: 1.0s
+[22:01:31][C][max31865:086]:   Reference Resistance: 430.00Ω
+[22:01:31][C][max31865:087]:   RTD: 3-wire 100.00Ω
+[22:01:31][C][max31865:089]:   Mains Filter: 50 Hz
+[22:01:31][C][max31865:083]: MAX31865 'Temperature2'
+[22:01:31][C][max31865:083]:   Device Class: 'temperature'
+[22:01:31][C][max31865:083]:   State Class: 'measurement'
+[22:01:31][C][max31865:083]:   Unit of Measurement: '°C'
+[22:01:31][C][max31865:083]:   Accuracy Decimals: 0
+[22:01:31][C][max31865:083]:   Icon: 'mdi:water-percent'
+[22:01:31][C][max31865:084]:   CS Pin: GPIO32
+[22:01:31][C][max31865:085]:   Update Interval: 1.0s
+[22:01:31][C][max31865:086]:   Reference Resistance: 430.00Ω
+[22:01:31][C][max31865:087]:   RTD: 3-wire 100.00Ω
+[22:01:31][C][max31865:089]:   Mains Filter: 50 Hz
+[22:01:31][C][psram:020]: PSRAM:
+[22:01:31][C][psram:021]:   Available: NO
+[22:01:31][C][captive_portal:089]: Captive Portal:
+[22:01:31][C][web_server:153]: Web Server:
+[22:01:31][C][web_server:154]:   Address: combi_boiler.local:80
+[22:01:31][C][mdns:116]: mDNS:
+[22:01:31][C][mdns:117]:   Hostname: combi_boiler
+[22:01:31][C][esphome.ota:073]: Over-The-Air updates:
+[22:01:31][C][esphome.ota:074]:   Address: combi_boiler.local:3232
+[22:01:31][C][esphome.ota:075]:   Version: 2
+[22:01:31][C][safe_mode:018]: Safe Mode:
+[22:01:31][C][safe_mode:020]:   Boot considered successful after 60 seconds
+[22:01:31][C][safe_mode:021]:   Invoke after 10 boot attempts
+[22:01:31][C][safe_mode:023]:   Remain in safe mode for 300 seconds
+[22:01:31][W][safe_mode:029]: Last reset occurred too quickly; safe mode will be invoked in 8 restarts
+[22:01:31][C][api:140]: API Server:
+[22:01:31][C][api:141]:   Address: combi_boiler.local:6053
+[22:01:31][C][api:145]:   Using noise encryption: NO
+[22:01:31][C][debug:021]: Debug component:
+[22:01:31][D][debug:035]: ESPHome version 2024.12.4
+[22:01:31][D][debug:039]: Free Heap Size: 129212 bytes
+[22:01:31][D][debug:170]: Flash Chip: Size=4096kB Speed=40MHz Mode=DIO
+[22:01:31][D][debug:218]: Chip: Model=ESP32, Features=WIFI_BGN,BLE,BT, Cores=2, Revision=3
+[22:01:31][D][debug:226]: ESP-IDF Version: v4.4.2
+[22:01:31][D][debug:231]: EFuse MAC: 30:C6:F7:1D:CA:48
+[22:01:31][D][debug:137]: Reset Reason: Power On Reset
+[22:01:31][D][debug:279]: Wakeup Reason: Unknown
+[22:01:31][E][max31865:101]: SPI bus read all 0 or all 1 (0x0000), check MAX31865 wiring & power.
+[22:01:32][E][max31865:101]: SPI bus read all 0 or all 1 (0x0000), check MAX31865 wiring & power.
+[22:01:32][E][max31865:101]: SPI bus read all 0 or all 1 (0x0000), check MAX31865 wiring & power.
+[22:01:33][E][max31865:101]: SPI bus read all 0 or all 1 (0x0000), check MAX31865 wiring & power.
+[22:01:33][D][combi_boiler:062]: New L values received: -0.14 -0.25 -0.02
+[22:01:33][D][text_sensor:064]: 'Boiler 1 Status': Sending state 'L1: -0.14 kW, L2: -0.25 kW, L3: -0.02 kW'
+[22:01:33][E][max31865:101]: SPI bus read all 0 or all 1 (0x0000), check MAX31865 wiring & power.
+[22:01:33][D][sensor:094]: 'Temperature1': Sending state nan °C with 0 decimals of accuracy
+[22:01:34][D][combi_boiler:130]: Current Shelly reading: 0.02 0.01 0.01
+[22:01:34][D][combi_boiler:138]: @FP: -0.00 -0.00 0
+[22:01:34][D][combi_boiler:151]: FP: -0.00 -0.00 0
+[22:01:34][D][sensor:094]: 'Boiler 1 Power': Sending state -0.00000 % with 1 decimals of accuracy
+[22:01:34][D][sensor:094]: 'Boiler 2 Power': Sending state -0.00000 % with 1 decimals of accuracy
+[22:01:34][E][max31865:101]: SPI bus read all 0 or all 1 (0x0000), check MAX31865 wiring & power.
+[22:01:34][D][sensor:094]: 'Temperature2': Sending state nan °C with 0 decimals of accuracy
+[22:01:34][E][max31865:101]: SPI bus read all 0 or all 1 (0x0000), check MAX31865 wiring & power.
+[22:01:35][E][max31865:101]: SPI bus read all 0 or all 1 (0x0000), check MAX31865 wiring & power.
+[22:01:35][E][max31865:101]: SPI bus read all 0 or all 1 (0x0000), check MAX31865 wiring & power.
+[22:01:35][D][sensor:094]: 'Loop Time': Sending state 7700.00000 ms with 0 decimals of accuracy
+[22:01:36][E][max31865:101]: SPI bus read all 0 or all 1 (0x0000), check MAX31865 wiring & power.
+[22:01:36][D][combi_boiler:073]: New Shelly values: 0.02 0.01 0.01
+[22:01:36][D][text_sensor:064]: 'Boiler 2 Status': Sending state 'S1: 0.02 A, S2: 0.01 A, S3: 0.01 A'
+[22:01:36][E][max31865:101]: SPI bus read all 0 or all 1 (0x0000), check MAX31865 wiring & power.
+[22:01:37][D][combi_boiler:130]: Current Shelly reading: 0.02 0.01 0.01
+[22:01:37][D][combi_boiler:138]: @FP: -0.00 -0.00 0
+[22:01:37][D][combi_boiler:151]: FP: -0.00 -0.00 0
+[22:01:37][E][max31865:101]: SPI bus read all 0 or all 1 (0x0000), check MAX31865 wiring & power.
+[22:01:37][E][max31865:101]: SPI bus read all 0 or all 1 (0x0000), check MAX31865 wiring & power.
+[22:01:38][E][max31865:101]: SPI bus read all 0 or all 1 (0x0000), check MAX31865 wiring & power.
+[22:01:38][D][combi_boiler:062]: New L values received: -0.14 -0.24 -0.02
+[22:01:38][D][text_sensor:064]: 'Boiler 1 Status': Sending state 'L1: -0.14 kW, L2: -0.24 kW, L3: -0.02 kW'
+[22:01:38][E][max31865:101]: SPI bus read all 0 or all 1 (0x0000), check MAX31865 wiring & power.
+[22:01:38][D][sensor:094]: 'Temperature1': Sending state nan °C with 0 decimals of accuracy
+[22:01:39][E][max31865:101]: SPI bus read all 0 or all 1 (0x0000), check MAX31865 wiring & power.
+[22:01:39][D][sensor:094]: 'Temperature2': Sending state nan °C with 0 decimals of accuracy
+[22:01:39][E][max31865:101]: SPI bus read all 0 or all 1 (0x0000), check MAX31865 wiring & power.
+[22:01:40][D][combi_boiler:130]: Current Shelly reading: 0.02 0.01 0.01
+[22:01:40][D][combi_boiler:138]: @FP: -0.00 -0.00 0
+[22:01:40][D][combi_boiler:151]: FP: -0.00 -0.00 0
+[22:01:40][E][max31865:101]: SPI bus read all 0 or all 1 (0x0000), check MAX31865 wiring & power.
+[22:01:40][E][max31865:101]: SPI bus read all 0 or all 1 (0x0000), check MAX31865 wiring & power.
+[22:01:40][D][sensor:094]: 'Loop Time': Sending state 40.00000 ms with 0 decimals of accuracy
+[22:01:41][E][max31865:101]: SPI bus read all 0 or all 1 (0x0000), check MAX31865 wiring & power.
+[22:01:41][D][combi_boiler:073]: New Shelly values: 0.02 0.01 0.01
+[22:01:41][D][text_sensor:064]: 'Boiler 2 Status': Sending state 'S1: 0.02 A, S2: 0.01 A, S3: 0.01 A'
+[22:01:41][E][max31865:101]: SPI bus read all 0 or all 1 (0x0000), check MAX31865 wiring & power.
+[22:01:42][E][max31865:101]: SPI bus read all 0 or all 1 (0x0000), check MAX31865 wiring & power.
+[22:01:42][E][max31865:101]: SPI bus read all 0 or all 1 (0x0000), check MAX31865 wiring & power.
+[22:01:43][D][combi_boiler:130]: Current Shelly reading: 0.02 0.01 0.01
+[22:01:43][D][combi_boiler:138]: @FP: -0.00 -0.00 0
+[22:01:43][D][combi_boiler:151]: FP: -0.00 -0.00 0
+[22:01:43][E][max31865:101]: SPI bus read all 0 or all 1 (0x0000), check MAX31865 wiring & power.
+[22:01:43][D][combi_boiler:062]: New L values received: -0.14 -0.24 -0.02
+[22:01:43][D][text_sensor:064]: 'Boiler 1 Status': Sending state 'L1: -0.14 kW, L2: -0.24 kW, L3: -0.02 kW'
+[22:01:43][E][max31865:101]: SPI bus read all 0 or all 1 (0x0000), check MAX31865 wiring & power.
+[22:01:43][D][sensor:094]: 'Temperature1': Sending state nan °C with 0 decimals of accuracy
+[22:01:44][E][max31865:101]: SPI bus read all 0 or all 1 (0x0000), check MAX31865 wiring & power.
+[22:01:44][D][sensor:094]: 'Temperature2': Sending state nan °C with 0 decimals of accuracy
+[22:01:44][E][max31865:101]: SPI bus read all 0 or all 1 (0x0000), check MAX31865 wiring & power.
+[22:01:45][E][max31865:101]: SPI bus read all 0 or all 1 (0x0000), check MAX31865 wiring & power.
+[22:01:45][E][max31865:101]: SPI bus read all 0 or all 1 (0x0000), check MAX31865 wiring & power.
+[22:01:45][D][sensor:094]: 'Loop Time': Sending state 47.00000 ms with 0 decimals of accuracy
+[22:01:46][D][combi_boiler:073]: New Shelly values: 0.02 0.01 0.01
+[22:01:46][D][text_sensor:064]: 'Boiler 2 Status': Sending state 'S1: 0.02 A, S2: 0.01 A, S3: 0.01 A'
+[22:01:46][D][combi_boiler:130]: Current Shelly reading: 0.02 0.01 0.01
+[22:01:46][D][combi_boiler:138]: @FP: -0.00 -0.00 0
+[22:01:46][D][combi_boiler:151]: FP: -0.00 -0.00 0
+[22:01:46][E][max31865:101]: SPI bus read all 0 or all 1 (0x0000), check MAX31865 wiring & power.
+[22:01:46][D][number:054]: 'Boiler 1 forcepoint' - Setting number value
+[22:01:46][D][number:113]:   New number value: 73.000000
+[22:01:46][D][combi_boiler:040]: set_boiler1_forcepoint: 73.00
+[22:01:46][D][number:012]: 'Boiler 1 forcepoint': Sending state 73.000000
+[22:01:46][E][max31865:101]: SPI bus read all 0 or all 1 (0x0000), check MAX31865 wiring & power.
+[22:01:47][E][max31865:101]: SPI bus read all 0 or all 1 (0x0000), check MAX31865 wiring & power.
+[22:01:47][E][max31865:101]: SPI bus read all 0 or all 1 (0x0000), check MAX31865 wiring & power.
+[22:01:48][E][max31865:101]: SPI bus read all 0 or all 1 (0x0000), check MAX31865 wiring & power.
+[22:01:48][D][combi_boiler:062]: New L values received: -0.14 -0.25 -0.02
+[22:01:48][D][text_sensor:064]: 'Boiler 1 Status': Sending state 'L1: -0.14 kW, L2: -0.25 kW, L3: -0.02 kW'
+[22:01:48][E][max31865:101]: SPI bus read all 0 or all 1 (0x0000), check MAX31865 wiring & power.
+[22:01:48][D][sensor:094]: 'Temperature1': Sending state nan °C with 0 decimals of accuracy
+[22:01:49][D][combi_boiler:130]: Current Shelly reading: 0.02 0.01 0.01
+[22:01:49][D][combi_boiler:138]: @FP: 73.00 73.00 746
+[22:01:49][D][combi_boiler:151]: FP: -0.00 -0.00 0
+[22:01:49][D][sensor:094]: 'Boiler 1 Power': Sending state 73.00000 % with 1 decimals of accuracy
+[22:01:49][E][max31865:101]: SPI bus read all 0 or all 1 (0x0000), check MAX31865 wiring & power.
+[22:01:49][D][sensor:094]: 'Temperature2': Sending state nan °C with 0 decimals of accuracy
+[22:01:49][E][max31865:101]: SPI bus read all 0 or all 1 (0x0000), check MAX31865 wiring & power.
+[22:01:50][E][max31865:101]: SPI bus read all 0 or all 1 (0x0000), check MAX31865 wiring & power.
+[22:01:50][E][max31865:101]: SPI bus read all 0 or all 1 (0x0000), check MAX31865 wiring & power.
+[22:01:50][D][sensor:094]: 'Loop Time': Sending state 43.00000 ms with 0 decimals of accuracy
+[22:01:51][D][combi_boiler:073]: New Shelly values: 0.02 0.01 0.01
+[22:01:51][D][text_sensor:064]: 'Boiler 2 Status': Sending state 'S1: 0.02 A, S2: 0.01 A, S3: 0.01 A'
+[22:01:51][E][max31865:101]: SPI bus read all 0 or all 1 (0x0000), check MAX31865 wiring & power.
